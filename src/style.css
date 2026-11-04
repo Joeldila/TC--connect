@@ -26,3 +26,151 @@
 @media(max-width:780px){.sidebar{transform:translateX(-100%);width:270px;transition:transform .2s}.sidebar.open{transform:none}.main{margin-left:0}.mobile-toggle{display:flex}.topbar{height:68px;gap:14px}.breadcrumbs{margin-right:auto}.search{display:none}.top-actions{gap:14px}.page-heading{gap:10px}.heading-action .btn{font-size:0;padding:10px;gap:0}.heading-action .btn svg{width:20px}.today{display:none}.auth-layout{display:flex;flex-direction:column;gap:20px;max-width:560px}.auth-story{width:100%}.auth-story .register-brand{margin-bottom:22px}.auth-story>h1{font-size:33px;margin:15px 0}.auth-story>p{font-size:14px;max-width:100%;margin:0}.auth-orbit{display:none}.typed-motto{font-size:15px;min-height:32px;margin:18px 0 0}.auth-kicker{font-size:10px}.auth-page{padding:25px 18px}.auth-form-card{padding:25px}.auth-form-card>h1{font-size:25px}.auth-form-card .badge{font-size:9px}.register-card{width:100%}.auth-cover-statement{padding:13px 15px}.auth-cover-statement strong{font-size:15px}.calls-intro h2{font-size:31px}.calls-intro{padding:23px}.call-overlay{padding:17px}.call-card{padding:27px 20px}.call-card h2{font-size:24px}.conference-body{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) 230px}.lesson-chat{padding:12px 16px}.lesson-chat>.fine{display:none}.conference-media .lk-control-bar button{font-size:12px}.live-host-panel{font-size:12px;gap:9px}.live-host-panel button{font-size:11px}.live-moderation{max-width:95vw}.screen-camera-strip{height:90px}}
 @media(max-width:560px){body{font-size:16px}main{padding:23px 16px 0}.topbar{padding:0 16px}.breadcrumbs{font-size:12px;gap:6px}.page-heading h1{font-size:28px}.page-heading p{font-size:14px;max-width:100%}.eyebrow{font-size:10px}.hero{min-height:315px}.hero-content{width:100%;padding:24px}.hero h2{font-size:28px}.hero p{font-size:14px}.hero .badge{font-size:9px;letter-spacing:.3px}.hero-buttons .btn{font-size:12px;width:100%;justify-content:space-between}.hero-art{opacity:.12;left:40%}.stat-grid{gap:12px}.stat{padding:16px 12px;grid-template-columns:28px 1fr;column-gap:7px}.stat-icon{width:28px;height:28px}.stat-icon svg{width:17px}.stat-top{font-size:12px}.stat-top>svg{display:none}.stat strong{font-size:28px}.stat>small{font-size:11px}.panel-heading{padding:18px 16px;align-items:flex-start}.panel-heading h2{font-size:17px}.panel-heading p{font-size:12px}.panel-heading .text-btn{font-size:12px}.empty h3{font-size:17px}.empty p{font-size:14px}.empty-inline{padding:20px 17px}.empty-inline strong{font-size:14px}.empty-inline p{font-size:12px}.setup-strip{padding:17px}.setup-strip h3{font-size:15px}.setup-strip p{font-size:12px}.setup-strip .btn{font-size:12px;margin-left:0;min-height:42px}.setup-strip>div:nth-child(2){flex:1;min-width:160px}.filter-bar>button{font-size:13px;padding:12px 10px}.table-wrap table{min-width:710px}td{font-size:13px;padding:14px}td strong{font-size:14px}td small{font-size:12px}.module-card{display:flex;flex-direction:column}.module-art{height:125px;flex-direction:row;justify-content:space-between;padding:23px}.module-art>span{font-size:15px;margin:0}.module-art>svg:first-child{width:38px}.module-info{padding:21px}.module-info h2{font-size:21px}.module-info>p{font-size:14px}.module-footer{font-size:13px}.scope-line{font-size:12px}.module-detail{padding:19px}.module-detail-heading h2{font-size:25px}.module-detail-heading p{font-size:14px}.module-detail-heading small{font-size:13px}.module-actions .btn{font-size:13px}.resource-row{padding:18px 16px;gap:10px}.resource-row strong{font-size:14px}.resource-row small{font-size:12px}.resource-row .btn{font-size:0;padding:10px;gap:0;min-width:42px}.platform-panel .platform-grid{grid-template-columns:1fr;padding:18px}.platform-card{padding:22px}.platform-card h3{font-size:21px}.platform-card p{font-size:14px}.integration-note{font-size:12px;padding:16px}.announcement-card{padding:20px}.announcement-card h2{font-size:22px}.announcement-card footer{flex-wrap:wrap;gap:15px}.announcement-card .inline-actions{width:100%;justify-content:flex-end}.announcement-card .inline-actions .btn{font-size:12px}.card-meta small{font-size:11px}.author strong{font-size:14px}.author small{font-size:12px}.announcement-scope{font-size:12px}.announcement-card .prewrap{font-size:16px}.mini-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.mini-stats>div{padding:16px}.mini-stats span,.mini-stats>div:last-child span{font-size:13px}.mini-stats strong{font-size:28px}.detail-facts{font-size:14px;gap:20px}.detail-facts small{font-size:11px}.ticket-detail{padding:20px}.ticket-detail h2{font-size:23px}.ticket-student-identity strong{font-size:14px}.ticket-student-identity small{font-size:12px}.ticket-student-identity span{font-size:12px}.request-dial{padding:13px}.request-dial>span{font-size:13px}.request-dial .btn{width:100%;font-size:14px}.request-dial small{font-size:12px}.conversation-layout{display:flex;flex-direction:column;min-height:560px;height:calc(100dvh - 255px);max-height:900px}.room-list{display:block;max-height:195px;flex-shrink:0;overflow-y:auto;padding:8px;border-bottom:1px solid var(--line)}.room-list>.panel-heading{padding:12px 8px}.room-list>button{display:flex;width:100%;border:1px solid #eee1e8;padding:12px;margin-bottom:7px;gap:10px}.room-list strong{font-size:14px;white-space:normal;line-height:1.5}.room-list small{font-size:12px;line-height:1.6}.room-list>button small{font-size:12px}.room-list .avatar{width:31px;height:31px}.conversation-layout .chat-shell{flex:1;min-height:360px;height:auto}.chat-head{padding:14px}.chat-head h3{font-size:15px}.chat-head small{font-size:11px}.messages{padding:17px 13px;min-height:200px;gap:20px}.message{max-width:100%;gap:8px}.message .avatar.tiny{width:30px;height:30px;font-size:11px}.message-identity strong{font-size:14px}.message-identity span{font-size:11px}.message p{font-size:15px;padding:11px 13px;line-height:1.8}.message-profile-link{font-size:11px}.message-time{font-size:10px!important}.chat-input{padding:12px;gap:8px}.chat-input input{font-size:16px;padding:11px;min-height:46px}.chat-input .btn{min-width:46px}.modal-overlay{padding:12px}.modal{padding:24px 19px;max-height:92dvh;border-radius:12px}.modal-header h2{font-size:22px}.two-fields{grid-template-columns:1fr;gap:0}.checks label{font-size:14px}.profile-photo-row{padding:22px;gap:15px}.profile-photo-row h3{font-size:19px}.profile-photo-row p{font-size:12px}.profile-form{padding:21px}.profile-student-card{padding:17px 10px;gap:8px}.profile-student-card span{font-size:9px}.profile-student-card strong{font-size:13px}.profile-view h2{font-size:24px}.profile-view p{font-size:14px}.meeting-intro{padding:20px;gap:13px}.meeting-intro h2{font-size:20px}.meeting-intro p{font-size:14px}.meeting-intro .btn{margin-left:0;font-size:14px;width:100%}.meeting-card{padding:22px}.meeting-card h2{font-size:22px}.meeting-card>p{font-size:14px}.meeting-facts{font-size:12px;gap:14px}.meeting-mode{font-size:10px}.meeting-card-actions .btn{font-size:13px}.meeting-card-actions .text-btn{font-size:13px}.meeting-card-actions{gap:12px}.waiting-person{align-items:flex-start}.waiting-person>div:not(.avatar){min-width:130px}.waiting-person strong{font-size:14px}.waiting-person small{font-size:12px;line-height:1.7}.meeting-admin-actions .btn{font-size:12px}.attendance-summary{font-size:14px}.attendance-summary p{font-size:12px}.conference-top{padding:12px}.conference-top strong{font-size:13px;max-width:200px}.conference-top .btn{font-size:12px;min-height:40px}.conference-body{grid-template-rows:minmax(0,1fr) 240px}.conference-media{padding:12px}.conference-media .lk-participant-name{font-size:11px}.lesson-chat>h3{font-size:14px}.lesson-message-author strong{font-size:13px}.lesson-message-author small{font-size:11px}.lesson-messages article>p{font-size:14px}.lesson-messages article>.text-btn{font-size:11px}.lesson-messages article>small{font-size:10px}.lesson-chat>form input{font-size:16px;min-height:44px}.live-host-panel{padding:10px;gap:7px;font-size:11px}.live-host-panel button{font-size:11px;min-height:36px}.local-mode-strip{font-size:12px;align-items:flex-start}.app-footer{font-size:11px;line-height:1.8;padding-bottom:70px}.enable-call-sound{right:12px;bottom:12px;font-size:12px;padding:10px 13px;max-width:calc(100vw - 24px)}.call-error{right:12px;bottom:67px;font-size:13px}.call-card h2{font-size:23px}.call-private{font-size:9px;letter-spacing:.6px}.call-identity{font-size:13px}.call-status{font-size:21px}.call-card>small{font-size:11px}.dial-panel>form{padding:20px;display:block}.dial-panel>form .btn{margin-top:14px;width:100%}.dial-person{padding:18px;flex-wrap:wrap}.dial-person strong{font-size:16px}.dial-person small,.dial-person span{font-size:12px}.dial-person>.btn{width:100%;margin-top:8px}.history-row{padding:18px 16px;gap:10px;flex-wrap:wrap}.history-row strong{font-size:15px}.history-row small{font-size:12px}.history-row>.btn{min-height:40px;font-size:12px}.history-row>div{min-width:150px}.auth-story>h1{font-size:32px}.auth-form-card>h1{font-size:25px}.auth-tabs button{font-size:14px}.auth-page{padding:23px 15px}.auth-form-card{padding:24px 20px}.auth-story>p{font-size:14px}.auth-foot p{font-size:12px}.typed-motto{font-size:14px;min-height:48px}.auth-cover-statement strong{font-size:14px}.auth-cover-statement span{font-size:11px}.register-card>p{font-size:14px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.typing-caret{display:none}}
+/* Mobile layout repair — 4.0.1. Keep wide content inside its own scroller. */
+html{width:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body,#root,.app,.main,main{min-width:0;max-width:100%}
+.main{width:auto}
+main>*{min-width:0}
+.overview-grid,.settings-grid,.announcement-layout,.ticket-layout,.profile-layout,.conversation-layout,.module-grid,.meeting-grid,.platform-grid,.stat-grid{min-width:0}
+.overview-grid>*,.settings-grid>*,.announcement-layout>*,.ticket-layout>*,.profile-layout>*,.conversation-layout>*,.module-grid>*,.meeting-grid>*,.platform-grid>*,.stat-grid>*{min-width:0}
+.panel,.table-wrap,.chat-shell,.room-list,.module-card,.platform-card,.meeting-card,.auth-layout,.register-card{min-width:0;max-width:100%}
+h1,h2,h3,p,.breadcrumbs,.profile-view,.detail-facts,.resource-row strong,.person-cell,.message-identity,.meeting-facts,.history-row,.dial-person,.ticket-student-identity,.year-row,.notice-row{overflow-wrap:anywhere}
+input,select,textarea{min-width:0;max-width:100%}
+input[type=file]{width:100%}
+form,.two-fields,form label,.message-content,.resource-row>div,.ticket-student-identity>button,.profile-photo-row>div,.dial-person>div{min-width:0}
+.chat-input input{min-width:0;flex:1;width:0}
+img,video{max-width:100%}
+.table-wrap{width:100%;overflow-x:auto;overscroll-behavior-x:contain;touch-action:pan-x pan-y}
+.table-wrap table{width:100%}
+.filter-bar{max-width:100%;flex-shrink:0}
+.sidebar{height:100vh;height:100dvh;overflow-y:auto;overscroll-behavior-y:contain;padding-bottom:env(safe-area-inset-bottom,0px)}
+.sidebar>*{flex-shrink:0}
+.sidebar-bottom{margin-top:auto}
+.nav-close{display:none}
+.page-heading>div,.panel-heading>div,.chat-head>div,.topbar>*{min-width:0}
+.panel-heading,.form-footer,.inline-actions,.module-actions,.hero-buttons,.card-meta,.detail-facts,.call-controls{flex-wrap:wrap}
+.modal{max-width:100%;overflow-x:hidden;overflow-y:auto}
+.modal-overlay,.call-overlay{padding-bottom:max(16px,env(safe-area-inset-bottom,0px))}
+.call-card{margin:auto;flex-shrink:0;overflow-wrap:anywhere}
+.call-controls{row-gap:18px}
+.call-error p{min-width:0;overflow-wrap:anywhere}
+.enable-call-sound{bottom:max(12px,env(safe-area-inset-bottom,0px));max-width:calc(100% - 24px)}
+@media(max-width:1024px){
+ .sidebar{width:290px;max-width:calc(100vw - 24px);transform:translateX(-100%);visibility:hidden;transition:transform .2s,visibility .2s;padding-top:12px;z-index:50}
+ .sidebar.open{transform:translateX(0);visibility:visible}
+ .sidebar .brand{padding-bottom:22px}
+ .nav-close{display:grid;place-items:center;position:sticky;top:0;right:auto;align-self:flex-end;margin:0 0 10px auto;z-index:2;min-width:44px;min-height:44px;border-radius:8px;background:#491323;color:white}
+ .nav-scrim{display:block;position:fixed;inset:0;width:100%;height:100%;z-index:45;background:#24131fb3;border:0;padding:0}
+ .main{margin-left:0;width:100%}
+ .mobile-toggle{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:8px;flex-shrink:0}
+ .topbar{padding:8px 16px;height:auto;min-height:68px;gap:10px}
+ .top-actions{gap:12px;flex-shrink:0}
+ .top-actions .avatar,.bell{flex-shrink:0}
+ .breadcrumbs{flex:1;margin-right:0;line-height:1.5}
+ .search{display:none}
+ main{padding:24px 20px 0}
+ .page-heading{align-items:flex-start}
+ .heading-action{flex-shrink:0;max-width:100%}
+ .heading-action .btn{font-size:14px;gap:8px;min-height:44px;margin-top:0;padding:10px 13px}
+ .overview-grid,.settings-grid,.announcement-layout,.profile-layout,.ticket-layout{grid-template-columns:minmax(0,1fr)}
+ .module-grid,.meeting-grid{grid-template-columns:minmax(0,1fr)}
+ .conversation-layout{display:flex;flex-direction:column;height:auto;max-height:none;min-height:0}
+ .room-list{display:block;flex-shrink:0;max-height:240px;overflow-y:auto;border-right:0;border-bottom:1px solid var(--line);padding:8px}
+ .room-list>.panel-heading{width:100%;padding:12px 10px}
+ .room-list>button{display:flex;width:100%;padding:12px;gap:10px;margin-bottom:6px;border:1px solid #eee1e8;border-radius:7px}
+ .room-list strong{font-size:14px;white-space:normal}
+ .room-list>button small{font-size:12px;white-space:normal}
+ .conversation-layout .chat-shell,.ticket-layout .chat-shell{flex:none;width:100%;height:560px;height:min(560px,80dvh);min-height:340px}
+ .messages{min-height:0}
+ .auth-page{align-items:flex-start;overflow-x:clip}
+ .auth-layout{display:flex;flex-direction:column;gap:24px;max-width:600px}
+ .auth-story{width:100%}
+ .auth-story .register-brand{margin-bottom:20px}
+ .auth-story>h1{font-size:34px;margin:16px 0}
+ .auth-story>p{max-width:100%}
+ .auth-orbit{display:none}
+ .typed-motto{min-height:0;margin:18px 0 0}
+ .auth-form-card{width:100%}
+ .conference-overlay{height:100vh;height:100dvh;overflow-y:auto;overscroll-behavior:contain}
+ .conference-top{flex-shrink:0;align-items:flex-start;flex-wrap:wrap}
+ .conference-top>div{min-width:0;flex:1}
+ .conference-top strong{white-space:normal;max-width:none;overflow-wrap:anywhere}
+ .conference-body{display:flex;flex-direction:column;flex:1 0 auto;overflow:visible;min-height:0}
+ .conference-body>[data-lk-theme]{height:auto;min-height:360px}
+ .conference-media{height:auto;min-height:360px;gap:12px}
+ .video-grid{min-height:210px;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:minmax(120px,1fr)}
+ .screen-layout{min-height:250px}
+ .screen-layout>.lk-focus-layout{min-height:190px}
+ .conference-media .lk-control-bar{max-width:100%;flex-wrap:wrap;height:auto;gap:8px}
+ .conference-media .lk-control-bar button{font-size:13px;min-height:44px}
+ .lesson-chat{min-height:300px;height:360px;border-left:0;border-top:1px solid #e5dce1;flex-shrink:0}
+ .lesson-messages{min-height:0}
+ .live-host-panel{flex-shrink:0;flex-wrap:wrap;overflow:visible}
+ .live-moderation{max-width:calc(100vw - 24px);max-height:85dvh;overflow:auto}
+}
+@media(max-width:600px){
+ main{padding:20px 14px 0}
+ .topbar{padding:8px 10px;gap:8px}
+ .breadcrumbs{font-size:12px;gap:4px;flex-wrap:wrap}
+ .top-actions{gap:9px}
+ .page-heading{flex-direction:column;gap:14px}
+ .page-heading h1{font-size:28px}
+ .heading-action:empty{display:none}
+ .heading-action .btn{font-size:14px}
+ .hero-content{width:100%;padding:22px}
+ .hero h2{font-size:27px}
+ .hero-buttons{width:100%}
+ .hero-buttons .btn{white-space:normal;font-size:13px}
+ .stat-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .stat{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:15px 12px}
+ .stat-top{font-size:13px;width:100%;gap:6px}
+ .stat strong{font-size:28px}
+ .stat>small{width:100%;margin-top:0;font-size:12px}
+ .panel-heading{flex-wrap:wrap;padding:17px 15px}
+ .panel-heading .text-btn{font-size:13px}
+ .platform-panel .platform-grid{grid-template-columns:minmax(0,1fr)}
+ .module-card{display:flex;flex-direction:column}
+ .module-art{height:120px}
+ .resource-row{flex-wrap:wrap;align-items:flex-start}
+ .resource-row>div{flex:1;min-width:150px}
+ .resource-row .btn{font-size:13px;gap:7px;padding:10px;min-width:44px}
+ .profile-photo-row{flex-wrap:wrap}
+ .profile-photo-row>div{flex:1;min-width:140px}
+ .profile-student-card{grid-template-columns:minmax(0,1fr);text-align:left;gap:14px}
+ .profile-student-card strong{margin-top:4px}
+ .two-fields{grid-template-columns:minmax(0,1fr)}
+ .modal-overlay{padding:10px;align-items:flex-start}
+ .modal{margin:auto;padding:22px 16px;max-height:calc(100dvh - 20px)}
+ .modal-header{gap:12px;align-items:flex-start}
+ .modal-header>div{min-width:0}
+ .modal-header h2{font-size:21px}
+ .modal-header .icon-btn{flex-shrink:0}
+ .form-footer .btn{flex:1;white-space:normal}
+ .auth-page{padding:22px 14px}
+ .auth-story>h1{font-size:30px}
+ .auth-form-card{padding:23px 18px}
+ .auth-form-card .badge{white-space:normal;font-size:11px}
+ .auth-tabs{gap:15px;flex-wrap:wrap}
+ .auth-tabs button{font-size:14px;min-height:44px}
+ .meeting-intro>div:nth-child(2){min-width:160px}
+ .meeting-intro .btn{width:100%;margin-left:0;font-size:14px}
+ .call-overlay{align-items:flex-start;padding:16px}
+ .call-card{padding:25px 18px}
+ .call-avatar-ring{width:105px;height:105px;margin:25px auto}
+ .call-avatar-ring .avatar{width:82px;height:82px}
+ .call-controls{gap:18px}
+ .dial-person>div,.history-row>div{min-width:0;flex:1}
+ .history-row>.btn{width:100%}
+ .chat-head{flex-wrap:wrap}
+ .chat-head>div{flex:1;min-width:130px}
+ .chat-input{padding:10px}
+ .message{max-width:100%}
+ .message p{font-size:16px}
+ .app-footer{flex-wrap:wrap;gap:12px;padding-bottom:85px}
+}
+@media(max-height:500px) and (max-width:1024px){
+ .sidebar{padding-top:12px}
+ .brand{padding-bottom:15px}
+ .modal,.live-moderation{max-height:calc(100dvh - 20px)}
+ .conference-media,.conference-body>[data-lk-theme]{min-height:300px}
+}
