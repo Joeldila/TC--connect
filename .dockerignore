@@ -1,0 +1,17 @@
+node_modules
+dist
+data
+.git
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.log
+tests
+.tc-qa
+
+local-data/
+.local-settings/
+.env.local
+
+logs/
