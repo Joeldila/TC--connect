@@ -1,0 +1,5 @@
+(function(){
+ function show(message){var root=document.getElementById('root');if(!root)return;root.replaceChildren();var panel=document.createElement('main');panel.className='startup-help';var h=document.createElement('h1');h.textContent='TC Connect could not load';var p=document.createElement('p');p.textContent=message;var help=document.createElement('p');help.textContent='Keep the launcher window open. Re-run 01-FIRST-RUN.cmd if application files are missing.';var reload=document.createElement('a');reload.href='/';reload.textContent='Reload application';panel.append(h,p,help,reload);root.append(panel);}
+ window.addEventListener('error',function(e){var t=e.target;if(t&&t.tagName==='SCRIPT'&&t.src){show('A required application file did not load. Check the launcher for errors.');return}if(e.message&&e.error)show(e.message)},true);
+ window.addEventListener('unhandledrejection',function(e){if(e.reason&&/dynamically imported module|module script|importing a module/i.test(String(e.reason)))show('The requested screen could not load. Refresh the page after restarting the launcher.');});
+})();

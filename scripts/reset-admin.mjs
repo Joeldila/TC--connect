@@ -1,0 +1,5 @@
+import {openDatabase} from '../server/db.mjs';
+import {hashPassword} from '../server/security.mjs';
+const {DATA_DIR,RESET_EMAIL,RESET_PASSWORD}=process.env;
+if(!DATA_DIR||!RESET_EMAIL||!RESET_PASSWORD)throw new Error('Set DATA_DIR, RESET_EMAIL and RESET_PASSWORD securely in the service environment.');
+const db=openDatabase(DATA_DIR);try{const user=db.sql.prepare("SELECT * FROM users WHERE email=? AND role='admin'").get(RESET_EMAIL.toLowerCase());if(!user)throw new Error('Administrator not found.');const hash=await hashPassword(RESET_PASSWORD);db.sql.exec('BEGIN');try{db.sql.prepare('UPDATE users SET password_hash=?,must_change_password=1,password_version=password_version+1,status=? WHERE id=?').run(hash,'active',user.id);db.sql.prepare('DELETE FROM sessions WHERE user_id=?').run(user.id);db.sql.exec('COMMIT')}catch(e){db.sql.exec('ROLLBACK');throw e}console.log('Administrator recovery completed. All sessions were revoked. Sign in and change the temporary password.')}finally{db.close()}
